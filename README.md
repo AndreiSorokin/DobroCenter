@@ -1,5 +1,5 @@
 # DobroCenter
-<a href="dobrocenter.fi">Dobrocenter</a>
+<a href="https://dobrocenter.fi">Dobrocenter</a>
 
 ### I developed this website as a freelancer for a Finnish organization dedicated to promoting development and creative leisure activities for children and adults.
 
