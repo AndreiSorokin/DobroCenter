@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="styles/main.css" media="screen" />
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+   <title>ДоброЦентр</title>
+   <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="wrapper">
+      <div class="video">
+         <video autoplay muted loop plays-inline class="bg__video" src="/png/IMG_0099.MOV">
+         </video>
+      </div>
+
+      <header class="header">
+         <div class="container container__header">
+            <div class="header__body">
+               <div class="header__burger">
+                  <span class="burger-line"></span>
+               </div>
+               <a class="dobrocenter" href="./index.html">
+                  <p class="p__dobro">DOBRO</p>
+                  <p class="p__center">CENTER</p>
+               </a>
+               <nav class="header__menu">
+                  <ul class="header__list">
+                     <li>
+                        <a href="./index.html" class="header__link" data-translate-key="home"></a>
+                     </li>
+                     <li>
+                        <a href="./lessons.html" class="header__link" data-translate-key="lessons"></a>
+                     </li>
+                     <li>
+                        <a href="./camp.html" class="header__link" data-translate-key="camp"></a>
+                     </li>
+                     <li>
+                        <a href="./gallery.html" class="header__link" data-translate-key="gallery"></a>
+                     </li>
+                     <li>
+                        <a href="./contacts.html" class="header__link" data-translate-key="contacts"></a>
+                     </li>
+                     <li>
+                        <a href="./about.html" class="header__link" data-translate-key="about"></a>
+                     </li>
+                     <li>
+                        <a href="enroll.html" class="header__button" data-translate-key="enroll"></a>
+                     </li>
+                     <li>
+                        <button id="lang-switch" class="lang__button" data-translate-key="switchLanguage"></button>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+
+      <div class="content">
+         <div class="container container__content">
+            <div class="content__inscription">DobroCenter</div>
+            <a class="dobrocenter__mobile" href="./index.html">
+               <p class="dobro__mobile">Dobro</p>
+               <p class="center__mobile">center</p>
+            </a>
+            <div class="finland">Finland</div>
+            <p class="text" data-translate-key="mainText"></p>
+            <span class="bird">
+               <img src="./png/Bird.png" alt="">
+            </span>
+            <a href="enroll.html" class="content__button" data-translate-key="enroll"></a>
+         </div>
+      </div>
+   </div>
+</body>
+<script src="app.js"></script>
+</html>

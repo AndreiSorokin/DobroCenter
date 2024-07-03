@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styles/enroll.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+   <title>Записаться</title>
+   <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="wrapper" id="wrapper">
+      <header class="header">
+         <div class="container container__header">
+            <div class="header__body">
+               <div class="header__burger">
+                  <span class="burger-line"></span>
+               </div>
+               <a class="dobrocenter" href="./index.html">
+                  <p class="p__dobro">DOBRO</p>
+                  <p class="p__center">CENTER</p>
+               </a>
+               <nav class="header__menu">
+                  <ul class="header__list">
+                     <li>
+                        <a href="./index.html" class="header__link">Главная</a>
+                     </li>
+                     <li>
+                        <a href="./lessons.html" class="header__link">Кружки</a>
+                     </li>
+                     <li>
+                        <a href="./camp.html" class="header__link">Детский лагерь</a>
+                     </li>
+                     <li>
+                        <a href="./gallery.html" class="header__link">Галлерея</a>
+                     </li>
+                     <li>
+                        <a href="./contacts.html" class="header__link">Контакты</a>
+                     </li>
+                     <li>
+                        <a href="./about.html" class="header__link">О нас</a>
+                     </li>
+                     <li>
+                        <a href="enroll.html" class="header__button">Записаться</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+
+      <div class="content">
+         <div class="container container__content">
+            <div class="form__wrapper">
+               <div class="form">
+                  <form action="#" id="form" class="form__body">
+                     <h1 class="form__title">Пожалуйста заполните форму</h1>
+                     <div class="form__item">
+                        <label class="form__label" for="formName">Имя*(латиницей)</label>
+                        <input type="text" class="form__input _req _name" id="formName" name="name" placeholder="">
+                     </div>
+                     <div class="form__item">
+                        <label class="form__label" for="formSurename">Фамилия*(латиницей)</label>
+                        <input type="text" class="form__input _req _surename" id="formSurename" name="surename" placeholder="">
+                     </div>
+                     <div class="form__item">
+                        <label class="form__label" for="formEmail">Эл. почта*</label>
+                        <input type="text" class="form__input _req _email" id="formEmail" name="email" placeholder="">
+                     </div>
+                     <div class="form__item">
+                        <label class="form__label" for="formLesson">Название кружка / секции*</label>
+                        <input type="text" class="form__input _req" id="formLesson" name="lesson" placeholder="">
+                     </div>
+                     <div class="form__item">
+                        <label class="form__label" for="formAddress">Домашний адрес, город, индекс*</label>
+                        <input type="text" class="form__input _req" id="formAddress" name="address" placeholder="">
+                     </div>
+                     <div class="form__item">
+                        <label class="form__label" for="formPhoneNumber">Номер телефона*</label>
+                        <input type="number" class="form__input _req" id="formPhoneNumber" name="phoneNumber" placeholder="">
+                     </div>
+                     <div class="form__item">
+                        <label class="form__label" for="formPhoneNumber">Сообщение:</label>
+                        <textarea name="message" id="formMessage" class="form__input"></textarea>
+                     </div>
+                     <div class="form__item">
+                        <div class="checkbox">
+                           <label class="checkbox__label" for="formAgreement"><span>Я даю свое согласие на обработку персональных данных в соответствии с <a href="./terms.html" target="_blank">Условиями*</a></span>
+                              <input type="checkbox" class="form__checkbox _req" id="formAgreement" name="agreement"> 
+                              <svg viewBox="0 -10 4 64" height="18px" width="18px">
+                                 <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" class="path"></path></label>
+                        </div>        
+                        </div>
+                     <button type="submit" class="form__button">Записаться</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+<script src="enroll.js" defer></script>
+</html>
