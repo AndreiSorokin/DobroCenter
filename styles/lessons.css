@@ -7,7 +7,6 @@
 
 html,body{
    height: 100%;
-   /* background: url('/png/photo_2023-06-24_16-40-56.jpg') top / cover no-repeat; */
 }
 
 .wrapper {
@@ -79,6 +78,14 @@ html,body{
 }
 .header__button:hover:before, .header__button:hover::after{
    transform: scale(0);
+}
+
+.lang__button {
+   padding-left: 3vw;
+   font-size: 18px;
+   background-color: transparent;
+   text-decoration: underline;
+   cursor: pointer;
 }
 
 .container{

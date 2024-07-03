@@ -15,11 +15,7 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-<<<<<<< HEAD
    <link rel="stylesheet" href="styles/lessons.css">
-=======
-   <link rel="stylesheet" href="./lessons.css">
->>>>>>> 71b3dd23e08ce3742197538ccd96e54c823537e7
    <title>Кружки</title>
    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 </head>
@@ -38,25 +34,28 @@
                <nav class="header__menu">
                   <ul class="header__list">
                      <li>
-                        <a href="./index.html" class="header__link">Главная</a>
+                        <a href="./index.html" class="header__link" data-translate-key="home"></a>
                      </li>
                      <li>
-                        <a href="./lessons.html" class="header__link">Кружки</a>
+                        <a href="./lessons.html" class="header__link" data-translate-key="lessons"></a>
                      </li>
                      <li>
-                        <a href="./camp.html" class="header__link">Детский лагерь</a>
+                        <a href="./camp.html" class="header__link" data-translate-key="camp"></a>
                      </li>
                      <li>
-                        <a href="./gallery.html" class="header__link">Галлерея</a>
+                        <a href="./gallery.html" class="header__link" data-translate-key="gallery"></a>
                      </li>
                      <li>
-                        <a href="./contacts.html" class="header__link">Контакты</a>
+                        <a href="./contacts.html" class="header__link" data-translate-key="contacts"></a>
                      </li>
                      <li>
-                        <a href="./about.html" class="header__link">О нас</a>
+                        <a href="./about.html" class="header__link" data-translate-key="about"></a>
                      </li>
                      <li>
-                        <a href="enroll.html" class="header__button">Записаться</a>
+                        <a href="enroll.html" class="header__button" data-translate-key="enroll"></a>
+                     </li>
+                     <li>
+                        <button id="lang-switch" class="lang__button" data-translate-key="switchLanguage"></button>
                      </li>
                   </ul>
                </nav>
@@ -66,162 +65,64 @@
 
       <div class="content">
          <div class="container container__content">
-            <h2 class="lessons__title">КРУЖКИ ДЛЯ ДЕТЕЙ</h2>
-<<<<<<< HEAD
-            <a href="./docs/Расписание.xlsx" class="schedule">Расписание</a>
-=======
->>>>>>> 71b3dd23e08ce3742197538ccd96e54c823537e7
+            <h2 class="lessons__title" data-translate-key="lessonsHeader"></h2>
+            <a href="./docs/Расписание.xlsx" class="schedule" data-translate-key="lessonsScedule"></a>
             <div class="content__item finish">
                <img class="image" src="./png/lessonSection/IMG_0007.JPG" alt="">
-               <p>Финский для детей <br>
-                  Suomenkieltä lapsille<br><br>
-                  Занятия финского языка организованы в двух группах. <br>
-                  Начальный уровень для дошкольников и продвинутый уровень.<br>
-                  В группах 7-8 детей.<br>
-                  Занятие 1 раз в неделю по воскресеньям .<br>
-                  Продолжительность 45 минут.<br><br>
-                  Развиваем навыки понимания финского языка на слух, выполняя различные задания и
-                  упражнения в игровой форме.<br><br>
-                  Практикуемся в разговорной речи, говорим много и самостоятельно, ставим диалоги из
-                  повседневной жизни, повышаем словарный запас, понимание грамматических законов языка 
-                  и употребление слов в реальных жизненных ситуациях.
-               </p>
+               <p data-translate-key="lessonsFin"> <br></p>
             </div>
+
             <div class="content__item schoolprep">
                <img class="image mobile" src="./png/lessonSection/IMG_0008.JPG" alt="">
-               <p>Математика. Подготовка к школе <br>
-                  Matematiikkakerho<br><br>
-                  
-                  Для детей 6-7 лет.<br>
-                  Занятия 1 раз в неделю 45 минут<br><br>
-                  
-                  Что дадут занятия математикой? <br><br>
-                  
-                  Ребенок получит первоначальные математические представления, что поможет ему лучше усваивать программный материал на финском / шведском языках в школе.<br>
-                  Способствуют развитию памяти, внимания, мышления, воображения. <br>
-                  Воспитывают организованность в учебной деятельности<br><br>
-                  
-                  Большое внимание уделяется формированию умений общаться с педагогом , с другими детьми, работать  в одном ритме со всеми, когда это необходимо, работать со счетным и геометрическим материалом, пользоваться тетрадью и др.</p>
+               <p data-translate-key="lessonsMath"></p>
                <img class="image pc" src="./png/lessonSection/IMG_0008.JPG" alt="">
             </div>
+
             <div class="content__item finish">
                <img class="image" src="./png/lessonSection/IMG_0009.JPG" alt="">
-               <p>Математика школьникам <br>
-                  Matematiikkakerho koululaisille<br><br>
-                  
-                  Занятия в мини-группах (2-3 человека) для учащихся 3-7 классов.<br>
-                  Занятия 1-2 раза в неделю 45 минут.<br><br>
-                  
-                  Прорабатываем темы, которые проходят в школе, отрабатываем навыки. <br>
-                  Используем дополнительный материал для хорошего усвоения материала. <br>
-                  Выполняем вместе домашние задания.</p>
+               <p data-translate-key="lessonsMathSchool"></p>
             </div>
+
             <div class="content__item schoolprep">
                <img class="image mobile" src="./png/lessonSection/IMG_0010.JPG" alt="">
-               <p>Гимнастика для детей <br>
-                  Voimistelukerho<br><br>
-                  
-                  Художественная  гимнастика для детей 4-6 лет, младших школьников и подростков.<br>
-                  В программе :<br>
-                  Занятия со скакалкой, обручем, мячом<br>
-                  Жонглирование<br>
-                  Акробатика<br>
-                  Растяжка<br>
-                  Занятия гимнастикой развивают гибкость, улучшают осанку и здоровье.<br><br>
-                  
-                  Ведет занятия профессиональный тренер с большим опытом работы.</p>
+               <p data-translate-key="lessonsGymnastics"></p>
                <img class="image pc" src="./png/lessonSection/IMG_0010.JPG" alt="">
             </div>
+
             <div class="content__item finish">
                <img class="image" src="./png/lessonSection/IMG_0011.JPG" alt="">
-               <p>Рисование <br>
-                  Piirrustus- ja maalauskerho<br><br>
-                  
-                  Занятия по воскресеньям 45 минут или по понедельникам 1,5 часа.<br><br>
-                  
-                  На наших уроках дети учатся работать различными материалами и комбинировать их, пробуют разные техники, изучают цветовую теорию и основы композиции. <br><br>
-                  
-                  Особое внимание мы уделаем работе с красками (акварель, акрил), но не забываем и про графику (карандаши, фломастеры, ручки). <br>
-                  Мы осваиваем лессировки, пишем по мокрому листу, учимся делать градиенты, смешивать краски и писать многоцветно, а также овладеваем штриховкой, пробуем декоративную графику и технику коллажа. Но рисование - это не только про техники и специальные навыки. <br><br>
-                  
-                  Благодаря урокам изобразительного искусства дети развивают креативное мышление, учатся анализировать окружающий мир и замечать прекрасное.</p>
+               <p data-translate-key="lessonsPaint"></p>
             </div>
+
             <div class="content__item schoolprep">
                <img class="image mobile" src="./png/lessonSection/IMG_0012.JPG" alt="">
-               <p>Умелые ручки <br>
-                  Askartelukerho<br><br>
-                  
-                  Занятия подходят для детей от 4 лет.<br>
-                  Занятие по воскресеньям 30 минут.<br><br>
-                  
-                  ”Умелые ручки» - кружок, благодаря которому ребенок развивает самые разные навыки на занятиях:<br>
-                  мы учимся рисовать и вырезать простые геометрические фигуры, <br>
-                  складывать и клеить бумагу, <br>
-                  учимся компоновать, <br>
-                  а так же украшать готовую работу (узорами, наклейками или стразами). <br><br>
-                  
-                  Мы мастерим открытки, поделки и аппликации.</p>
+               <p data-translate-key="lessonsHand"></p>
                <img class="image pc" src="./png/lessonSection/IMG_0012.JPG" alt="">
             </div>
+
             <div class="content__item finish">
                <img class="image" src="./png/lessonSection/IMG_0013.JPG" alt="">
-               <p>Танцы для подростков <br> 
-                  Tanssit teini-ikäisille<br><br>
-                  
-                  Уличные танцы для подростков<br><br>
-                  
-                  Энергичные уличные танцы на основе Афро, Дансхол и Хип-Хоп стилей под лучшую современную музыку! <br><br>
-                  
-                  Ты окунешься сразу в несколько танцевальных направлений, проработаешь технику движений, разовьешь музыкальный слух и свои эмоции в танце. <br><br>
-                  
-                  У нас будут интересные видео-проекты, выступления и соревнования!<br>
-                  Подготовка не требуется, так как уровень начинающий. <br>
-                  В группе уделяется внимание развитию каждого ученика!<br><br></p>
+               <p data-translate-key="lessonsDance"></p>
             </div>
+
             <div class="content__item schoolprep">
                <img class="image mobile" src="./png/lessonSection/IMG_0014.JPG" alt="">
-               <p>Самоделкин<br><br>
-                  
-                  Кружок технического творчества для детей и школьников. <br><br>
-                  
-                  На занятиях дети учатся читать простейшие чертежи и изготавливать по ним модели, <br>
-                  приобретать  навыки работы с разными инструментами и использовать различные материалы: <br>
-                  собирать модели - из натурального дерева, используем специальный клей и краски безопасные для здоровья. <br><br>
-                  
-                  Занятия 1 раз в неделю
-               </p>
+               <p data-translate-key="samodelkin"></p>
                <img class="image pc" src="./png/lessonSection/IMG_0014.JPG" alt="">
             </div>
+
             <div class="content__item finish">
                <img class="image" src="./png/lessonSection/IMG_0015.JPG" alt="">
-               <p>Театральная студия <br>
-                  Teatterikerho<br><br>
-                  
-                  Занятия 1-2 раза в неделю.<br>
-                  Занятия ведет выпускница ГИТИСа с большим опытом работы.<br><br>
-                  
-                  Занятие в театральной студии поможет раскрыть творческие способности, преодолеть стеснение, 
-                  зажимы и обрести уверенность. <br><br>
-
-                  Сценическое мастерство улучшит речь. <br><br>
-
-                  Мы окунемся в мир сказочных перевоплощений и фантастических приключений. 
-                  Участие в спектаклях и выступление на сцене поможет развить артистизм.</p>
+               <p data-translate-key="lessonsTheatre"></p>
             </div>
+            
             <div class="content__item schoolprep">
                <img class="image mobile" src="./png/lessonSection/IMG_0016.JPG" alt="">
-               <p>Музыкальный <br> 
-                  Musiikkikerho<br><br>
-                  
-                  "ВЕСЕЛЫЕ НОТКИ» для детей от 6 лет<br><br>
-                  
-                  На  занятиях в игровой форме дети знакомятся с основными средствами музыкальной выразительности, научатся петь, играть на детских шумовых инструментах, танцевать и импровизировать под музыку. <br><br>
-                  
-                  Большое удовольствие детям доставят развивающие подвижные музыкальные игры.<br>
-                  Занятия 1-2 раза в неделю 45 минут.</p>
+               <p data-translate-key="lessonsMusic"></p>
                <img class="image pc" src="./png/lessonSection/IMG_0016.JPG" alt="">
             </div>
-            <h2 class="lessons__title">ЗАНЯТИЯ ДЛЯ ВЗРОСЛЫХ</h2>
+
+            <h2 class="lessons__title" data-translate-key="lessonsForAdults"></h2>
             <div class="content__item finish">
                <img class="image" src="./png/lessonSection/IMG_0017.JPG" alt="">
                <p>Группа «мелодия» <br><br>

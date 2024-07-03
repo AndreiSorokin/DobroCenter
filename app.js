@@ -14,7 +14,7 @@ $(document).ready(function() {
          document.querySelectorAll('[data-translate-key]').forEach(element => {
             const key = element.getAttribute('data-translate-key');
             if (translations[key]) {
-               element.textContent = translations[key];
+               element.innerHTML = translations[key];
             }
          });
       });
