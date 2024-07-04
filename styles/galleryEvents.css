@@ -153,6 +153,14 @@ html,body{
    display: none;
 }
 
+.lang__button {
+   padding-left: 3vw;
+   font-size: 18px;
+   background-color: transparent;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
 .container__text{
    display: flex;
    justify-content: center;

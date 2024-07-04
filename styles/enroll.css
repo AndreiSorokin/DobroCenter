@@ -152,6 +152,14 @@ input::-webkit-inner-spin-button {
    display: none;
 }
 
+.lang__button {
+   padding-left: 3vw;
+   font-size: 18px;
+   background-color: transparent;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
 .form__wrapper{
    max-width: 50vw;
    background-color: #fff;

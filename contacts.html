@@ -12,11 +12,7 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
-<<<<<<< HEAD
    <link rel="stylesheet" href="styles/contacts.css">
-=======
-   <link rel="stylesheet" href="contacts.css">
->>>>>>> 71b3dd23e08ce3742197538ccd96e54c823537e7
    <title>Контакты</title>
    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 </head>
@@ -35,25 +31,28 @@
                <nav class="header__menu">
                   <ul class="header__list">
                      <li>
-                        <a href="./index.html" class="header__link">Главная</a>
+                        <a href="./index.html" class="header__link" data-translate-key="home"></a>
                      </li>
                      <li>
-                        <a href="./lessons.html" class="header__link">Кружки</a>
+                        <a href="./lessons.html" class="header__link" data-translate-key="lessons"></a>
                      </li>
                      <li>
-                        <a href="./camp.html" class="header__link">Детский лагерь</a>
+                        <a href="./camp.html" class="header__link" data-translate-key="camp"></a>
                      </li>
                      <li>
-                        <a href="./gallery.html" class="header__link">Галлерея</a>
+                        <a href="./gallery.html" class="header__link" data-translate-key="gallery"></a>
                      </li>
                      <li>
-                        <a href="./contacts.html" class="header__link">Контакты</a>
+                        <a href="./contacts.html" class="header__link" data-translate-key="contacts"></a>
                      </li>
                      <li>
-                        <a href="./about.html" class="header__link">О нас</a>
+                        <a href="./about.html" class="header__link" data-translate-key="about"></a>
                      </li>
                      <li>
-                        <a href="enroll.html" class="header__button">Записаться</a>
+                        <a href="enroll.html" class="header__button" data-translate-key="enroll"></a>
+                     </li>
+                     <li>
+                        <button id="lang-switch" class="lang__button" data-translate-key="switchLanguage"></button>
                      </li>
                   </ul>
                </nav>
@@ -65,7 +64,7 @@
          <div class="container container__content">
             <div class="contacts">
                <div class="contacts__head">
-                  <p>КОНТАКТЫ</p>
+                  <p data-translate-key="contactsContacts"></p>
                </div>
                <div class="contacts__info">
                   <p>dobrocenterfin@gmail.com</p>
@@ -74,7 +73,7 @@
             </div>
             <div class="place">
                <div class="place__head">
-                  <p>ГДЕ НАХОДИТСЯ?</p>
+                  <p data-translate-key="contactsWhere"></p>
                </div>
                <div class="place__info">
                   <p>Itäkeskus Nuorten Toimintatalo ”Kipinä”</p>
@@ -90,7 +89,7 @@
             </div>
             <div class="media">
                <div class="media__head">
-                  <p>МЫ В СОЦИАЛЬНЫХ СЕТЯХ:</p>
+                  <p data-translate-key="contactsMedia"></p>
                </div>
                <div class="media__links">
                   <a href="https://www.instagram.com/dobro.fi/?igshid=MzRlODBiNWFlZA%3D%3D" class="link__ig" target="_blank">

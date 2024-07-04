@@ -81,6 +81,14 @@ html,body{
    transform: scale(0);
 }
 
+.lang__button {
+   padding-left: 3vw;
+   font-size: 18px;
+   background-color: transparent;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
 .container{
    margin: 0 auto;
    width: 100%;
@@ -545,6 +553,7 @@ html,body{
    .header__button::after{
       display: none;
    }
+   
    .container__text{
       margin-bottom: 40vw;
       transform: translate(0, 10vh);

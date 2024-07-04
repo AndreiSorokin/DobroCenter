@@ -15,11 +15,7 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-<<<<<<< HEAD
    <link rel="stylesheet" href="styles/galleryLessons.css">
-=======
-   <link rel="stylesheet" href="galleryLessons.css">
->>>>>>> 71b3dd23e08ce3742197538ccd96e54c823537e7
    <title>Галлерея</title>
    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 </head>
@@ -38,25 +34,28 @@
                <nav class="header__menu">
                   <ul class="header__list">
                      <li>
-                        <a href="./index.html" class="header__link">Главная</a>
+                        <a href="./index.html" class="header__link" data-translate-key="home"></a>
                      </li>
                      <li>
-                        <a href="./lessons.html" class="header__link">Кружки</a>
+                        <a href="./lessons.html" class="header__link" data-translate-key="lessons"></a>
                      </li>
                      <li>
-                        <a href="./camp.html" class="header__link">Детский лагерь</a>
+                        <a href="./camp.html" class="header__link" data-translate-key="camp"></a>
                      </li>
                      <li>
-                        <a href="./gallery.html" class="header__link">Галлерея</a>
+                        <a href="./gallery.html" class="header__link" data-translate-key="gallery"></a>
                      </li>
                      <li>
-                        <a href="./contacts.html" class="header__link">Контакты</a>
+                        <a href="./contacts.html" class="header__link" data-translate-key="contacts"></a>
                      </li>
                      <li>
-                        <a href="./about.html" class="header__link">О нас</a>
+                        <a href="./about.html" class="header__link" data-translate-key="about"></a>
                      </li>
                      <li>
-                        <a href="enroll.html" class="header__button">Записаться</a>
+                        <a href="enroll.html" class="header__button" data-translate-key="enroll"></a>
+                     </li>
+                     <li>
+                        <button id="lang-switch" class="lang__button" data-translate-key="switchLanguage"></button>
                      </li>
                   </ul>
                </nav>
@@ -66,9 +65,9 @@
 
       <div class="content">
          <div class="container container__content">
-            <a href="./gallery.html" class="arrow">НАЗАД</a>
+            <a href="./gallery.html" class="arrow" data-translate-key="galleryArrow"></a>
             <div class="container__text">
-               <p>КРУЖКИ</p>
+               <p data-translate-key="galleryLessonsHeader"></p>
             </div>
             <div id="result">
                <div class="images" id="images">
