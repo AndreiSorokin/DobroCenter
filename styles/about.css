@@ -6,7 +6,7 @@
 }
 
 html,body{
-   height: 100%;
+   min-height: 100vh;
    background: url('../png/PATH.JPG') top / cover no-repeat;
 }
 
@@ -265,9 +265,6 @@ html,body{
    }
 }
 @media(992px >= width) {
-   html, body{
-      height: 195vh;
-   }
    .header{
       height: 7vh;
    }
@@ -305,9 +302,6 @@ html,body{
    }
 }
 @media(770px >= width) {
-   html, body{
-      height: 205vh;
-   }
    body.lock{
       overflow: hidden;
    }
@@ -381,9 +375,6 @@ html,body{
    }
 }
 @media(width <= 435px) {
-   html, body{
-      height: 170%;
-   }
    .header {
       height: 8vh;
    }
@@ -521,10 +512,5 @@ html,body{
       margin: 1vh 0 0 5vw;
       width: 65vw;
       font-size: 5vw;
-   }
-}
-@media(width <= 380px) {
-   html, body{
-      height: 193%;
    }
 }
