@@ -8,6 +8,31 @@
    "enroll": "Ilmoittaudu",
    "switchLanguage": "RU",
 
+   "aboutMainText1": "DobroCenter Finland ry — Yhdistyksen tavoitteena on yhdistää eri kansallisuuksia edustavia ihmisiä ja järjestöjä, ja  auttaa heitä integroitumaan ja sopeutumaan elämään Suomessa.",
+   "aboutMainText2": "Tarkoituksensa toteuttamiseksi yhdistys järjestää koulutusta ja vapaa-ajan harrasteita sekä lapsille  että nuorille ja aikuisille, kerhoja, leirejä, kursseja, erilaisia tilaisuuksia, urheilu- ja muita liikuntaharjoituksia.",
+   "aboutMainText3": "",
+
+   "aboutUl": "",
+   "aboutGymnastics": "Voimistelukerho",
+   "aboutTheatre": "",
+   "aboutActor": "",
+   "aboutVok": "",
+   "aboutF": "",
+   "aboutPaint": "Piirrustus- ja maalauskerho",
+   "aboutHand": "Askartelukerho",
+   "aboutBox": "Nyrkkeilykerho",
+   "aboutTech": "",
+   "aboutMakrame": "Makrame",
+   "aboutFit": "Fitness 45+",
+   "aboutSchool": "Matematiikkakerho",
+   "aboutPrivate": "",
+
+   "aboutText-2": "Integroitumisen parantamiseksi järjestetään suomen ja englannin kielen kursseja.",
+   "aboutText-2-1": "Ruoanlaiton mestarikursseja ja juhlallisia lastenesityksiä järjestetään ympäri vuoden.",
+   "aboutText-2-2": "Ja kesällä koululaisille järjestetään useita leirejä - meri-, urheilu-,taide ja muita. Leirit järjestetään kauniissa  paikoissa Suomenlahden rannoilla.",
+   "aboutText-2-3": "DobroCenterissa työskentelee ammattitaitoisia, työhönsä intohimoisia opettajia, jotka käyttävät nykyaikaisia työmenetelmiä ja yksilöllistä lähestymistapaa jokaiseen lapseen.",
+   "aboutText-2-4": "Tunnit pidetään -Helsingin nuorisotaloissa.",
+
    "lessonsFin": "Suomenkieltä lapsille<br><br>Suomen kielen kerho, järjestetään kahdessa ryhmässä.<br><br>Alkeistaso esikoululaisille ja edistynyt taso koululaisille.<br><br>Ryhmissä on 7-8 lasta.<br><br>Tunnit kerran viikossa sunnuntaisin.<br><br>Kesto 45 minuuttia.<br><br>Кehitämme suomen kielen ymmärrystä, suorittamme erilaisia tehtäviä ja harjoituksia leikkisällä tavalla.<br><br>Harjoittelemme puhumista, ja puhumme paljon itsenäisesti, luomme dialogeja, kehitämme sanavarastoamme, kielen kieliopin lakien ymmärtämistä ja sanojen käyttöä arkielämän tilanteissa.",
    "lessonsMath": "Matematiikkakerho<br><br>6-7 vuotiaille lapsille.<br>Tunnit kerran viikossa 45 minuuttia.<br><br>Mitä matematiikan tunnit antavat?<br><br>Lapsi saa alustavan matemaattisen ymmärryksen, joka auttaa häntä hallitsemaan paremmin suomen/ruotsin kielen ohjelmamateriaalin koulussa.<br>Edistää muistin, huomion, ajattelun ja mielikuvituksen kehitystä.<br>Edistää koulutustoiminnan organisointia.<br><br>Paljon huomiota kiinnitetään taitojen kehittämiseen, kommunikoida opettajan ja muiden lasten kanssa, työskennellä laskennan ja geometrisen materiaalin kanssa.",
    "lessonsMathSchool": "Matematiikkakerho koululaisille<br><br>Tunnit miniryhmissä (2-3 henkilöä) 3-7 luokkien opiskelijoille.<br>Tunteja 1-2 kertaa viikossa 45 minuuttia.<br><br>Opiskelemme koulussa opetettuja aiheita. Käytämme lisämateriaalia materiaalin hyvään assimilaatioon.<br>Teemme läksyt yhdessä.",
@@ -26,5 +51,9 @@
    "lessonsActAdl": "Teatterikerho aikuisille<br><br>Kurssit pidetään kerran viikossa.<br><br>Kurssit auttavat:<br>Paranna puhettasi. Puhu äänekkäästi ja selkeästi.<br>Rentoudu ja päästä eroon ujoudesta<br>Astu ulos «mukavuusalueeltasi»<br><br>Improvisoida<br>Laajenna tunnealuettasi,<br>Julkinen puhuminen<br>Pysy kameran edessä,<br>Esiintyminen stressaavassa ympäristössä.<br>Älä hermostu puhuessasi julkisesti<br><br>Esityksiin osallistuminen ja lavalla esiintyminen lisää itseluottamustasi.",
    "lessonsEngTitle": "ENGLANNIN KIELEN KURSSEJA",
    "lessonsEngBasic": "Perus kurssi<br><br>Tämä kurssi on tarkoitettu kaikille, jotka aikovat ottaa ensimmäiset askeleensa englannin oppimisessa.<br>Kurssin aikana opiskelija saa perustiedot, oppii kirjoittamaan, lukemaan, kuuntelemaan ja puhumaan englantia.<br>Harjoitteluryhmä valitaan tason mukaan ilmaisen testauksen tulosten perusteella.<br>Kurssi kestää 3 kuukautta.",
-   "lessonsEngSpoken": "Puhekielen kurssi<br><br>Conversational English on kurssi, jolla opit puhumaan, lukemaan, kirjoittamaan ja kuuntelemaan englantia.<br>Sanastosi laajenee jokaisella oppitunnilla.<br>Luokat opettaa äidinkielenään opettaja."
+   "lessonsEngSpoken": "Puhekielen kurssi<br><br>Conversational English on kurssi, jolla opit puhumaan, lukemaan, kirjoittamaan ja kuuntelemaan englantia.<br>Sanastosi laajenee jokaisella oppitunnilla.<br>Luokat opettaa äidinkielenään opettaja.",
+
+   "campsSummer": "Тaiteen kesäleiri<br><br>7-13 vuotiaille lapsille<br>Leiri on taiteellisesti suunnattu lapsille, jotka rakastavat piirtämistä.<br>Leirin osallistujat voivat osallistua seikkailupeleihin ja mielenkiintoisiin ltaide aktiviteetteihin ja mestarikursseihin.<br>Leirillä oleskelunsa aikana lapset tekevät erilaisia luonnoksia erilaisilla tekniikoilla: vesivärillä, guassilla, hiilellä, kynällä ja pastellilla.<br>Ja myös - kävelemme, menemme luonnoksiin, pelaamme ulkopelejä.<br><br>Tällä leirillä lapsi hankkii uusia tietoja ja taitoja, toteuttaa luovia kykyjään ja löytää uusia ystäviä.",
+   "campsSport": "Urheilupäiväleiri<br><br>Juokseminen, hyppääminen ja aktiivinen liikkuminen on jokaiselle lapselle luonnollinen tila, varsinkin kun hän on jo viettänyt lukuvuoden koulun luokassa tai tietokoneen ääressä.<br>Leirin pääteemana ovat urheilupelit, kävelylenkit, teemaaktiviteetit ja ulkopelit.Joka päivä harjoituksia ammattitaitoisen valmentajan johdolla.<br><br>Leirillämme lapset saavat uusia ystäviä ja viettävät mielenkiintoista ja hyödyllistä aikaa.",
+   "campsSail": "Merileiri<br><br>Viihtyisällä leirillämme yhdistämme aktiivisen toimintä ja mahdollisuuden ilmaista itseäsi, opimme olemaan itsenäisiä, itsevarmoja, vapauttamaan luovaa potentiaalia, löytämään parhaat puolesi ja saamaan uusia ystäviä.<br>Jokainen päivä leirillämme on täynnä yllätyksiä ja miellyttäviä yllätyksiä. Lapset eivät kyllästy, ohjelma on rikas ja jännittävä - urheilukilpailuja, ulkopelejä, kilpailuja, tehtäviä, kävelyretkiä.<br>Meillä on myos oppitunteja kanoottiohjaajien kanssa.<br><br>Merileiri 8-12-vuotiaille lapsille.<br>Aika - klo 9.00-16.00.<br>Paikka: Helsinki, Vuosaari."
 }

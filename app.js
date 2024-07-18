@@ -5,7 +5,7 @@ $(document).ready(function() {
    });
 
    const userLang = navigator.language || navigator.userLanguage;
-   let lang = userLang.startsWith('ru') ? 'ru' : 'fi';
+   let lang = localStorage.getItem('lang') || (userLang.startsWith('ru') ? 'ru' : 'fi');
 
    function loadTranslations() {
    fetch(`${lang}.json`)
@@ -24,6 +24,7 @@ $(document).ready(function() {
 
    $('#lang-switch').click(function() {
       lang = lang === 'ru' ? 'fi' : 'ru';
+      localStorage.setItem('lang', lang);
       loadTranslations();
    });
 });
