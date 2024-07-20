@@ -65,44 +65,48 @@
             <div class="form__wrapper">
                <div class="form">
                   <form action="#" id="form" class="form__body">
-                     <h1 class="form__title">Пожалуйста заполните форму</h1>
+                     <h1 class="form__title" data-translate-key="enrollHeader"></h1>
                      <div class="form__item">
-                        <label class="form__label" for="formName">Имя*(латиницей)</label>
+                        <label class="form__label" for="formName" data-translate-key="enrollFirstName"></label>
                         <input type="text" class="form__input _req _name" id="formName" name="name" placeholder="">
                      </div>
                      <div class="form__item">
-                        <label class="form__label" for="formSurename">Фамилия*(латиницей)</label>
+                        <label class="form__label" for="formSurename" data-translate-key="enrollLastName"></label>
                         <input type="text" class="form__input _req _surename" id="formSurename" name="surename" placeholder="">
                      </div>
                      <div class="form__item">
-                        <label class="form__label" for="formEmail">Эл. почта*</label>
+                        <label class="form__label" for="formEmail" data-translate-key="enrollEmail"></label>
                         <input type="text" class="form__input _req _email" id="formEmail" name="email" placeholder="">
                      </div>
                      <div class="form__item">
-                        <label class="form__label" for="formLesson">Название кружка / секции*</label>
+                        <label class="form__label" for="formLesson" data-translate-key="enrollLesson"></label>
                         <input type="text" class="form__input _req" id="formLesson" name="lesson" placeholder="">
                      </div>
                      <div class="form__item">
-                        <label class="form__label" for="formAddress">Домашний адрес, город, индекс*</label>
+                        <label class="form__label" for="formAddress" data-translate-key="enrollAddress"></label>
                         <input type="text" class="form__input _req" id="formAddress" name="address" placeholder="">
                      </div>
                      <div class="form__item">
-                        <label class="form__label" for="formPhoneNumber">Номер телефона*</label>
+                        <label class="form__label" for="formPhoneNumber" data-translate-key="enrollPhone"></label>
                         <input type="number" class="form__input _req" id="formPhoneNumber" name="phoneNumber" placeholder="">
                      </div>
                      <div class="form__item">
-                        <label class="form__label" for="formPhoneNumber">Сообщение:</label>
+                        <label class="form__label" for="formPhoneNumber" data-translate-key="enrollMessage"></label>
                         <textarea name="message" id="formMessage" class="form__input"></textarea>
                      </div>
                      <div class="form__item">
                         <div class="checkbox">
-                           <label class="checkbox__label" for="formAgreement"><span>Я даю свое согласие на обработку персональных данных в соответствии с <a href="./terms.html" target="_blank">Условиями*</a></span>
+                           <label class="checkbox__label" for="formAgreement">
+                              <span data-translate-key="enrollAgreement"></span>
+                              <a href="./terms.html" target="_blank" >
+                                 <span data-translate-key="enrollTerms"></span>
+                              </a>
                               <input type="checkbox" class="form__checkbox _req" id="formAgreement" name="agreement"> 
                               <svg viewBox="0 -10 4 64" height="18px" width="18px">
                                  <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" class="path"></path></label>
                         </div>        
                         </div>
-                     <button type="submit" class="form__button">Записаться</button>
+                     <button type="submit" class="form__button" data-translate-key="enrollButton"></button>
                   </form>
                </div>
             </div>
