@@ -65,7 +65,7 @@
    "contactsWhere": "MISSÄ?",
    "contactsMedia": "VERKOSSA:",
 
-   "enrollHeader": "",
+   "enrollHeader": "Ole hyvä ja täytä lomake",
    "enrollFirstName":"Nimi",
    "enrollLastName":"Sukunimi",
    "enrollEmail":"Sähköposti",
@@ -81,7 +81,7 @@
    "galleryCamps": "lasten leirit",
    "galleryLessons": "kerhot",
    "galleryEvents": "Tapahtumat",
-   "galleryArrow": "НАЗАД",
+   "galleryArrow": "TAKAISIN",
    "galleryCampHeader": "LASTEN LEIRIT",
    "galleryLessonsHeader": "KERHOT",
    "galleryEventsPage": "TAPAHTUMAT"
