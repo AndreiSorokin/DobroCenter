@@ -86,9 +86,11 @@ html,body{
    font-size: 18px;
    background-color: transparent;
    text-decoration: underline;
+   font-family: 'Alegreya Sans', sans-serif;
+   color: var(--blue);
+   font-size: 1.3vw;
    cursor: pointer;
 }
-
 .container{
    margin: 0 auto;
    width: 100%;
@@ -478,5 +480,9 @@ img{
    }
    .card__button a{
       font-size: 4vw;
+   }
+   .lang__button {
+      font-size: 8vw;
+      transform: translateX(20vw);
    }
 }

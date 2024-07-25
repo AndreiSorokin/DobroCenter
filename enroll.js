@@ -4,6 +4,8 @@ $(document).ready(function() {
    $.getScript('./app.js')
 })
 
+const lang = localStorage.getItem('lang') || 'ru'
+
 
 document.addEventListener('DOMContentLoaded', function() {
    const form = document.getElementById('form')
@@ -37,7 +39,11 @@ document.addEventListener('DOMContentLoaded', function() {
             wrapper.classList.remove('_sending')
          }
       } else {
-         alert('Пожалуйста убедитесь, что заполнены все обязательные поля и Вы дали согласие на обработку персональных данных')
+         if(lang === 'ru') {
+            alert('Пожалуйста убедитесь, что заполнены все обязательные поля и Вы дали согласие на обработку персональных данных')
+         }  else if(lang === 'fi') {
+            alert('Tarkista, että kaikki pakolliset kentät on täytetty ja ettei ole hyväksynyt yksityiskohtaiseen tietojen käsittelyyn')
+         }
       }
    }
    

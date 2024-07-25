@@ -18,13 +18,24 @@ $(document).ready(function() {
             }
          });
       });
-}
+   }
+
+   function updateLink() {
+      const scheduleLink = $('#schedule-link');
+      if (lang === 'ru') {
+         scheduleLink.attr('href', './docs/Расписание20242.pdf');
+      } else if (lang === 'fi') {
+         scheduleLink.attr('href', './docs/Расписаниефин24.pdf');
+      }
+   }
 
    loadTranslations();
+   updateLink();
 
    $('#lang-switch').click(function() {
       lang = lang === 'ru' ? 'fi' : 'ru';
       localStorage.setItem('lang', lang);
       loadTranslations();
+      updateLink();
    });
 });

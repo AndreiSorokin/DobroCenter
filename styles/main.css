@@ -164,6 +164,9 @@ html,body{
    font-size: 18px;
    background-color: transparent;
    text-decoration: underline;
+   font-family: 'Alegreya Sans', sans-serif;
+   color: var(--blue);
+   font-size: 1.3vw;
    cursor: pointer;
 }
 
@@ -280,6 +283,9 @@ html,body{
    .header__link{
       font-size: 1.7vw;
    }
+   .lang__button {
+      font-size: 1.7vw;
+   }
    .p__dobro{
       transform: translate(.8vw, 0);
    }
@@ -394,6 +400,9 @@ html,body{
       color: var(--blue);
       letter-spacing: .2vw;
       transition: 1.2s;
+   }
+   .lang__button {
+      font-size: 2.4vw;
    }
    .header__button{
       font-size: 2.4vw;
@@ -521,6 +530,9 @@ html,body{
       font-size: 7vw;
       font-family: 'Alegreya Sans', sans-serif;
    }
+   .lang__button {
+      font-size: 7vw;
+   }
    .content__inscription{
       display: none;
    }
@@ -578,6 +590,10 @@ html,body{
       height: .1vh;
       width: 80vw;
    }
+   .lang__button {
+      font-size: 8vw;
+      transform: translateX(20vw);
+   }
    .header__button{
       position: relative;
       font-size: 8vw;
@@ -595,5 +611,11 @@ html,body{
    }
    .header__button::after{
       display: none;
+   }
+}
+
+@media(375px >= width) {
+   .dobrocenter__mobile {
+      font-size: 15vw;
    }
 }

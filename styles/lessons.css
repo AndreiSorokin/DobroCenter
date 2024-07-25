@@ -6,7 +6,8 @@
 }
 
 html,body{
-   height: 100%;
+   min-height: 100%;
+   background-color: var(--white);
 }
 
 .wrapper {
@@ -85,6 +86,9 @@ html,body{
    font-size: 18px;
    background-color: transparent;
    text-decoration: underline;
+   font-family: 'Alegreya Sans', sans-serif;
+   color: var(--blue);
+   font-size: 1.3vw;
    cursor: pointer;
 }
 
@@ -183,6 +187,7 @@ html,body{
 }
 .content__item p {
    font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
 }
 .content__item p::first-line{
    font-family: 'Alegreya Sans', sans-serif;
@@ -480,5 +485,9 @@ html,body{
    }
    .content__item p{
       font-size: 3.5vw;
+   }
+   .lang__button {
+      font-size: 8vw;
+      transform: translateX(20vw);
    }
 }
